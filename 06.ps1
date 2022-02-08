@@ -1,2 +1,2 @@
 #Número d'àlies que té el sistema
-Get-Alias
+(get-alias|Measure-Object).Count 

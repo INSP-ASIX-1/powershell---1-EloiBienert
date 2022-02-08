@@ -1,2 +1,3 @@
 #Assigna a la variable $a el Id del procés que té per nom 'bash'
-$a = get-process bash |select -expand id 
+$a=Get-Process -ProcessName bash | Select-Object -ExpandProperty Id
+Write-Output $a 
